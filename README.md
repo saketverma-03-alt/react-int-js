@@ -1,13 +1,30 @@
-# React + Vite
+# Setup Instructions
+- clone repo
+- install dependencies
+- run using npm run dev or your package manager equivalent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Design 
+- you can use any colors similar to in the desing.
+  
+![image](https://github.com/user-attachments/assets/6a6a2e62-6ed5-48d7-a034-0aaec3aa9330)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
+## Formula Maker Requirment
+<details>
+<summary>Requirments 1</summary>
+<br>
+  <ol>
+<li> Input box must take inputs from formual words, or symbols <code>+,-,*,/,(,)</code>code></li>
+  <li>Formual must start with a word.</li>
+  </ol>
+</details>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# react-int-js" 
+<details>
+<summary>Requirments 2</summary>
+<br>
+  <ol>
+<li> Formula can also start with <code>(</code>  and end with <code>)</code></li>
+  <li>Every <code>(</code> shoudl have its pair <code> )</code>   </li>
+  </ol>
+</details>
