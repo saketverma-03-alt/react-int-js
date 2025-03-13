@@ -8,6 +8,10 @@ const router = createBrowserRouter([
     path: "/",
     lazy: async () => import("./app/formula-maker"),
   },
+  {
+    path: "/pricing",
+    lazy: async () => import("./app/pricing"),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
